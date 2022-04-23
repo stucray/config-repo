@@ -1,0 +1,14 @@
+---
+spring:
+  batch:
+    jdbc:
+      initialize-schema=always
+    job:
+      enabled: false
+
+document:
+  resolver:
+    timeout: 30000
+    maxRetries: 4
+    retryWaitTime: 2000
+    readDelay: 2000
