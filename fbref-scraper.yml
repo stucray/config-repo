@@ -2,7 +2,7 @@
 spring:
   batch:
     jdbc:
-      initialize-schema=always
+      initialize-schema: always
     job:
       enabled: false
 
@@ -12,3 +12,10 @@ document:
     maxRetries: 4
     retryWaitTime: 2000
     readDelay: 2000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    enabled-by-default: true
