@@ -3,6 +3,6 @@ logging:
   level:
     com:
       netflix:
-        discovery: off
+        discovery: "off"
         eureka:
-          registry: off
+          registry: "off"

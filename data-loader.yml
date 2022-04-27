@@ -1,0 +1,12 @@
+---
+spring:
+  datasources:
+    fbref:
+      pool-name: DataSource-fbref
+    fbdata:
+      pool-name: DataSource-fbdata
+  batch:
+    jdbc:
+      initialize-schema: always
+    job:
+      enabled: false
