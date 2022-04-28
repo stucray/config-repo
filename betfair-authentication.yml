@@ -1,0 +1,7 @@
+---
+sc:
+  betfair:
+    auth:
+      certificate-login-url: https://identitysso-cert.betfair.com/api/certlogin
+      logout-url: https://identitysso.betfair.com/api/logout
+      keystore-url: classpath:keystore/bf-client-store-p12

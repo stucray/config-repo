@@ -12,4 +12,3 @@ document:
     maxRetries: 4
     retryWaitTime: 2000
     readDelay: 2000
-
