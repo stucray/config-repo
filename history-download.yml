@@ -1,0 +1,10 @@
+---
+spring:
+  codec:
+    max-in-memory-size: 10MB
+
+betfair:
+  download:
+    betfair-base-url: https://historicdata.betfair.com/api/
+    token-endpoint: token
+    authentication-service-url: http://betfair-authentication
