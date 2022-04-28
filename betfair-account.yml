@@ -1,0 +1,10 @@
+---
+betfair:
+  account:
+    authentication:
+      url: http://betfair-authentication/api/auth/
+      token-endpoint: token
+    base-url: https://api.betfair.com/exchange/account/rest/v1.0/
+    details-path: getAccountDetails/
+    account-funds-path: getAccountFunds/
+    statement-path: getAccountStatement/
