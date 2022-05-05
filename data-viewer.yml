@@ -1,0 +1,18 @@
+---
+spring:
+  graphql:
+    path: /fb-data-viewer/graphql
+    cors:
+      allowed-origins: "*"
+      allowed-headers: "*"
+      allowed-methods: "*"
+    graphiql:
+      enabled: true
+      path: /fb-data-viewer/graphiql
+logging:
+  level:
+    org:
+      springframework:
+        graphql: INFO
+        jdbc:
+          core: INFO
