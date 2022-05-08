@@ -2,10 +2,6 @@
 spring:
   graphql:
     path: /fbraw-viewer-api/graphql
-    cors:
-      allowed-origins: "*"
-      allowed-headers: "*"
-      allowed-methods: "*"
     graphiql:
       enabled: true
       path: /fbraw-viewer-api/graphiql
@@ -16,3 +12,4 @@ logging:
         graphql: DEBUG
         jdbc:
           core: INFO
+
